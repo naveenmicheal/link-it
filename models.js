@@ -11,6 +11,9 @@ const shorturlschema = mongoose.Schema({
 		required:true,
 		unique: true
 	},
+	stats:{
+		type:Array,
+	},
 
 });
 
